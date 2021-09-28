@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
-using ToDoList.Models;
+using Dealership.Models;
 using System.Collections.Generic;
 
-namespace ToDoList.Controllers
+namespace Dealership.Controllers
 {
   public class ItemsController : Controller
   {
