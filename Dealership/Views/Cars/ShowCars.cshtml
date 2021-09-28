@@ -1,6 +1,6 @@
 @using Dealership.Models;
 
-<h1>List of available cars:</h1>
+<h1>List of available cars in your budget:</h1>
 
 @if (Model.Count == 0)
 {
@@ -15,9 +15,6 @@
 
 <form action="/">
   <button type="submit">Return to Home</button>
-</form>
-<form action="/cars/budget">
-  <button type="submit">Filter cars by your budget</button>
 </form>
 <form action="/cars/new">
   <button type="submit">Add another Car</button>
